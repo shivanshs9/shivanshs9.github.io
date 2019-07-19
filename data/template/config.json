@@ -1,0 +1,66 @@
+{
+  "url": "https://shivanshs9.me",
+  "meta": {
+    "favicon": "/favicons/android-chrome-192x192.png",
+    "keyword": "shivanshs9, TheFaker, blog, Backend, Fullstack, Frontend, App, Development, JavaScript, Python",
+    "description": "My adventures in \"Unlimited Code Works\".",
+    "theme_color": "#384f7c",
+    "google_site_verification": "riZBcestky7i9xY__A-5J-2EE65T75X1u-zgbss37Io"
+  },
+  "name": "shivanshs9",
+  "about": "/about/",
+  "email": "shivanshs9@gmail.com",
+  "stats": {
+    "image": "",
+    "title": "",
+    "description": ""
+  },
+  "title": "Shivansh Saini",
+  "gitalk": {
+    "repo": "shivanshs9.github.io",
+    "admin": ["shivanshs9"],
+    "owner": "shivanshs9",
+    "clientID": "c4a6f6852c0d440d3dc0",
+    "clientSecret": "90e6d7c8451bf4fb2dfd75f42e59a3d1f93865d6",
+    "pagerDirection": "first",
+    "distractionFreeMode": true
+  },
+  "License": "by",
+  "friends": [
+    {
+      "href": "https://calpa.me",
+      "title": "Calpa's Blog"
+    }
+  ],
+  "iconUrl": "/assets/avatar.jpg",
+  "profileImg": "/assets/profile.jpg",
+  "wordings": ["Fullstack", "DevOps"],
+  "gaTrackId": "UA-84737574-3",
+  "navbarList": [
+    {
+      "href": "/tags/",
+      "title": "Tags"
+    },
+    {
+      "href": "/about/",
+      "title": "About"
+    }
+  ],
+  "redirectors": [
+    {
+      "toPath": "/2018/05/01/about/",
+      "fromPath": "/about/"
+    }
+  ],
+  "gaOptimizeId": "GTM-WHP7SC5",
+  "carouselItems": [
+    {
+      "src": "https://i.imgur.com/gw91CuI.jpg",
+      "target": "/stats/"
+    }
+  ],
+  "githubUsername": "shivanshs9",
+  "maxPostsInPage": 10,
+  "facebook": "thefaker99",
+  "medium": "shivanshs9"
+}
