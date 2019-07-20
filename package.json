@@ -80,7 +80,8 @@
     "functions": "netlify-lambda serve functions",
     "reset": "rimraf pubilc/ .cache/",
     "commit": "npx git-cz",
-    "revert": "node ./scripts/revertConfig.js"
+    "revert": "node ./scripts/revertConfig.js",
+    "deploy:github": "npm run build && node ./deploy-github"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -90,7 +91,7 @@
     "eslint-import-resolver-webpack": "^0.10.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-react": "^7.11.1",
-    "gh-pages": "^2.0.0",
+    "gh-pages": "^2.0.1",
     "husky": "^1.0.0-rc.14",
     "lint-staged": "^8.0.4",
     "prettier": "^1.7.4",
