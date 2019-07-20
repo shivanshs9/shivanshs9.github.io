@@ -23,7 +23,10 @@ const ProjectsPage = ({ data: { allProjectFiles }, size: { width } }) => {
         <Sidebar />
 
         <div className="col order-2">
-          <StackGrid columnWidth={width <= 768 ? "100%" : "50%"}>
+          <StackGrid
+            columnWidth={width <= 768 ? '100%' : '50%'}
+            monitorImagesLoaded={true}
+          >
             {projects.map(arg => (
               <GridCard {...arg} key={arg.id} />
             ))}

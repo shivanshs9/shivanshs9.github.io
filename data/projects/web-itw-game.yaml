@@ -1,5 +1,5 @@
 title: The Lost Origins
-subtitle: "If a train station is where a train stops, what happens at a work station?"
+subtitle: “If a train station is where a train stops, what happens at a work station?”
 description: >-
   This project aims to develop a MMORPG web game using RPG Maker MV engine and Django ASGI for the backend server.
   It supports real-time player interactions, group chat and cloud save. It was part of my Information Technology Workshop - II project.
@@ -9,6 +9,6 @@ work:
   - Used Redis-backend Django Channels on top of ASGI interface to support fast, asynchronous data-exchange on long-living websocket connections.
 projectLink: https://github.com/shivanshs9/MMORPG-TLO
 resultLink: ''
-image: ''
+image: https://github.com/shivanshs9/MMORPG-TLO/raw/master/static/img/cover2.png
 start: 2018-08-14T03:48:03.125Z
 end: 2018-11-01T03:48:03.125Z

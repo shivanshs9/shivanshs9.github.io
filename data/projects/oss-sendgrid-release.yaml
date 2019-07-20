@@ -1,0 +1,13 @@
+title: Auto-generate release notes
+subtitle: Automating release notes and updating the remote
+description: >-
+  The bash script would automatically judge the correct release notes to use, by reading through the CHANGELOG file and considering the
+  current tagged version in git. It'll then push an update to the GitHub repo, by posting a new release with this note.
+work:
+  - Wrote a bash utility script to auto-generate release notes for a git repo, based on the latest commit tags and CHANGELOG text.
+  - Uses releases endpoint of Github API to push the obtained notes to the configured repository.
+projectLink: https://github.com/sendgrid/python-http-client/pull/112
+resultLink: ''
+image: 
+start: 2018-10-26T03:48:03.125Z
+end: 2018-10-31T03:48:03.125Z

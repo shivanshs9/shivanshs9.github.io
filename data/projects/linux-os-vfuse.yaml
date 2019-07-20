@@ -1,0 +1,13 @@
+title: GDrive FileSystem
+subtitle: A remote filesystem to mount with Google Drive.
+description: >-
+  FUSE is a system interface provided in Unix-like OSes to provide a clean API for non-privileged users develop their own filesystems without
+  writing kernel code. This project is a Python script which uses FUSE API to mount an authenticated google drive on the running shell.
+work:
+  - Implemented Google Auth and used Google Drive API reference for file stats.
+  - Implemented in-memory cache using hashing of the path and corresponding custom file object.
+projectLink: https://github.com/shivanshs9/gdrive-fuse
+resultLink: ''
+image: 
+start: 2019-04-30T21:00:03.125Z
+end: 2019-05-01T07:50:03.125Z

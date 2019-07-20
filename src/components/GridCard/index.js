@@ -71,7 +71,8 @@ class GridCard extends Component {
     } = this.props;
     const url = resultLink || projectLink;
     const duration = getDuration(start, end);
-    const dateTxt = `${duration} from ${parseDateToMonth(start)}`;
+    const interjection = (!end || duration.match(/months?$/)) ? 'from' : 'in';
+    const dateTxt = `${duration} ${interjection} ${parseDateToMonth(start)}`;
 
     return (
       <div className="pb-4">

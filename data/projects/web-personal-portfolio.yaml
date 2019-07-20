@@ -1,0 +1,14 @@
+title: shivanshs9's Blog
+subtitle: “My whole life is... Unlimited Code Works!”
+description: >-
+  A personal blogging webapp, where I can jot down my technical ideas and thoughts. It also happens to showcase many of my past projects,
+  so I never lose track of what I haven't done yet. :D
+work:
+  - Used gatsby's starter project by Calpa Liu.
+  - Wrote GraphQL queries to fetch YAML data for this projects page.
+  - Implemented various React components, like skill-o-meter.
+projectLink: https://github.com/shivanshs9/shivanshs9.github.io/
+resultLink: https://shivanshs9.me
+image: ''
+start: 2019-07-19T10:48:03.125Z
+end: 2019-07-20T07:48:03.125Z

@@ -1,0 +1,14 @@
+title: Power Gestures for Linux touchpads
+subtitle: 'Actions gestures on your touchpad using libinput'
+description: >-
+  This tool is designed exclusively for power-users, hence the name 'Power Gestures'. It gives the end-user total control of how
+  a particular chain of events - mouse, keyboard or trackpad gestures - be detected to trigger desired chain of actions via Linux commands.
+work:
+  - Added Pointer and trigger keys when detecting gestures.
+  - Added ability to add custom gestures for individual applications.
+  - Added feature to specify multiple commands to run on successful gesture detection.
+projectLink: https://github.com/shivanshs9/power-gestures
+resultLink: ''
+image: https://github.com/shivanshs9/power-gestures/raw/master/libinput-gestures.png
+start: 2018-10-22T03:48:03.125Z
+end: 2018-10-28T03:48:03.125Z

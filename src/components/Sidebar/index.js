@@ -17,6 +17,7 @@ const {
   about,
   facebook,
   medium,
+  linkedin,
 } = config;
 
 const Icon = ({ href, icon }) => (
@@ -48,13 +49,16 @@ const Sidebar = ({ totalCount, latestPosts }) => (
         href={`https://github.com/${githubUsername}`}
         icon={['fab', 'github']}
       />
-      <Icon href={`mailto:${email}`} icon={['far', 'envelope']} />
-      {facebook
-        && <Icon href={`https://www.facebook.com/${facebook}/`} icon={['fab', 'facebook']} />
+      {linkedin
+        && <Icon href={`https://linkedin.com/in/${linkedin}/`} icon={['fab', 'linkedin']} />
       }
       {medium
         && <Icon href={`https://medium.com/@${medium}/`} icon={['fab', 'medium']} />
       }
+      {facebook
+        && <Icon href={`https://www.facebook.com/${facebook}/`} icon={['fab', 'facebook']} />
+      }
+      <Icon href={`mailto:${email}`} icon={['far', 'envelope']} />
       <Information totalCount={totalCount} posts={latestPosts} />
     </div>
   </header>

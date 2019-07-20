@@ -1,5 +1,5 @@
 title: VLC for Android
-subtitle: "Tests are stories we tell the next generation of programmers on a project."
+subtitle: “Tests are stories we tell the next generation of programmers on a project.”
 description: >-
   The project aims to contribute to the stability of Android port of VLC, by writing test suites for the VLC android codebase.
   This will ensure that the regressions are caught by developers at an early stage and the released application stays stable.
