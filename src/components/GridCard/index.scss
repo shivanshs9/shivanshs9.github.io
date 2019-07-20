@@ -14,7 +14,7 @@ $open-sans: "Open Sans", sans-serif; // clear-fix mixin
 }
 // Base styles
 
-.custom-card {
+.grid-card {
   transition: box-shadow 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 
   &:hover {
@@ -24,11 +24,11 @@ $open-sans: "Open Sans", sans-serif; // clear-fix mixin
   .wrapper {
     background-position: center;
     @media (min-width: 576px) {
-      min-height: 15rem;
+      height: 13rem;
     }
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 5.7rem;
+    height: 5.7rem;
     position: relative;
     overflow: hidden;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -85,9 +85,19 @@ $open-sans: "Open Sans", sans-serif; // clear-fix mixin
     }
 
     .subtitle {
+      @media(max-width: 356px) {
+        line-height: 1;
+        font-size: 0.8rem;
+      }
       color: $gray;
       text-align: center;
       font-size: 0.9rem;
+    }
+
+    .description {
+      @media(max-width: 356px) {
+        font-size: 0.9rem;
+      }
     }
 
     .links {
@@ -116,42 +126,25 @@ $open-sans: "Open Sans", sans-serif; // clear-fix mixin
 
 .Modal {
   position: absolute;
-  top: 25%;
-  left: 25%;
-  right: 25%;
-  bottom: 25%;
-  background-color: white;
-  border-radius: 10px;
-  z-index: 1200;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-@media(max-width: 768px) {
-  .Modal {
+  @media(max-width: 768px) {
     top: 40px;
     left: 40px;
     right: 40px;
     bottom: 40px;
   }
-}
-
-@media(max-width: 356px) {
-  .Modal {
+  @media(max-width: 356px) {
     left: 0;
     right: 0;
   }
-
-  .custom-card .content {
-    .description {
-      font-size: 0.9rem;
-    }
-    .subtitle {
-      line-height: 1;
-      font-size: 0.8rem;
-    }
-  }
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+  overflow: auto;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 1200;
+  padding: 20px;
 }
 
 .Overlay {

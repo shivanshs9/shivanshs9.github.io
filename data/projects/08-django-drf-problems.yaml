@@ -1,5 +1,5 @@
 title: DRF Problems
-subtitle: "How the heck should I be explaining errors?"
+subtitle: “How the heck should I be explaining errors?”
 description: >-
   The library implements RFC 7807 in our favourite Django REST Framework! Or, in layman terms, it introduces “Problem Details” in the HTTP APIs.
 work:

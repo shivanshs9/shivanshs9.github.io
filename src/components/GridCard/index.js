@@ -76,7 +76,7 @@ class GridCard extends Component {
 
     return (
       <div className="pb-4">
-        <div className="custom-card">
+        <div className="grid-card">
           {image && (
             <CardHeader
               url={url}
@@ -121,7 +121,7 @@ class GridCard extends Component {
           overlayClassName="Overlay"
           contentLabel="My Responsibilities">
           <ul>
-            {work.map(str => (<li>{str}</li>))}
+            {work.map(str => (<li key={str}>{str}</li>))}
           </ul>
         </Modal>
       </div>

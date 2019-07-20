@@ -5,7 +5,7 @@ import { Link, graphql } from 'gatsby';
 
 const NotFoundPage = ({ data }) => (
   <div className="container">
-    <div className="row">
+    <div className="row" style={{ margin: 15 }}>
       <div className="col">
         <h4>You're lost within the Unlimited Code Works.</h4>
         {data.allSitePage.edges.map(page => (

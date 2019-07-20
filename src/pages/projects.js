@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 import { graphql } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -7,6 +7,7 @@ import GridCard from '../components/GridCard';
 import { withSize } from 'react-sizeme'
 
 import StackGrid from "react-stack-grid";
+import ReactResizeDetector from 'react-resize-detector';
 
 import './projects.scss';
 
@@ -17,6 +18,8 @@ const ProjectsPage = ({ data: { allProjectFiles }, size: { width } }) => {
     projects.push(data);
   });
 
+  const grid = useRef(null);
+
   return (
     <div className="container">
       <div className="row" style={{ margin: 15 }}>
@@ -25,10 +28,20 @@ const ProjectsPage = ({ data: { allProjectFiles }, size: { width } }) => {
         <div className="col order-2">
           <StackGrid
             columnWidth={width <= 768 ? '100%' : '50%'}
-            monitorImagesLoaded={true}
+            monitorImagesLoaded
+            gridRef={curr => grid.current = curr}
           >
             {projects.map(arg => (
-              <GridCard {...arg} key={arg.id} />
+              <ReactResizeDetector
+                handleHeight
+                handleWidth
+                onResize={() => {
+                  if (grid.current) grid.current.updateLayout();
+                }}
+                key={arg.id}
+              >
+                <GridCard {...arg} />
+              </ReactResizeDetector>
             ))}
           </StackGrid>
         </div>
@@ -50,7 +63,7 @@ export default withSize()(ProjectsPage);
 
 export const query = graphql`
   query getAllProjects {
-    allProjectFiles: allFile(filter: {sourceInstanceName: {eq: "data"}, relativeDirectory: {eq: "projects"}}) {
+    allProjectFiles: allFile(filter: {sourceInstanceName: {eq: "data"}, relativeDirectory: {eq: "projects"}}, sort: {fields: name, order: DESC}) {
       totalCount
       edges {
         node {

@@ -1,20 +1,37 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import './about.scss';
-
-class AboutPage extends Component {
-  constructor(props) {
-    super(props);
-    this.data = this.props.data;
-  }
-
-  render() {
-    console.log(this.data)
-    return (
-      <p>about</p>
-    );
-  }
-}
+import { graphql } from 'gatsby';
+import Sidebar from '../components/Sidebar';
+import SEO from '../components/SEO';
+import { withSize } from 'react-sizeme'
 
 
-export default AboutPage;
+import './projects.scss';
+
+const AboutPage = ({ data, size: { width }}) => {
+  return (
+    <div className="container">
+      <div className="row" style={{ margin: 15 }}>
+        <Sidebar />
+
+        <div className="col order-2">
+        </div>
+      </div>
+
+      <SEO
+        title="About me"
+        url="/about/"
+        siteTitleAlt="Shivansh Saini"
+        isPost={false}
+        description="About Page"
+        image="https://i.imgur.com/M795H8A.jpg"
+      />
+    </div>
+  );
+};
+
+
+export default withSize()(AboutPage);
+
+// export const query = graphql`
+// `;
