@@ -1,3 +1,14 @@
----
-xyz
----
+title: Checkin app
+subtitle: 'A one-stop appetizer for all food-lovers out there!'
+description: >-
+  Checkin presents all the services of a restaurant at the customer's fingertips.
+  Stand out from the chaos and save one's valuable time, by enjoying the experience,
+  and leave all the engagement touch points with the restaurant to this app.
+work:
+  - Collaborated with the android team to build the Android app and implemented MVVM architecture to have a well-written decoupled codebase.
+  - Migrated the android code from Java to Kotlin to deflate the codebase by 25%.
+projectLink: https://github.com/checkin-team/Checkin-Android
+resultLink: https://play.google.com/store/apps/details?id=com.checkin.app.checkin
+image: https://lh3.googleusercontent.com/TKv_IJER7NsaEjhAKqhI3tULj04zEnSghGNFMFczj4KW0GtlHDH9STqWlTec47X_JQ=s180-rw
+start: 2018-11-09T03:48:03.125Z
+end: 2019-02-14T03:48:03.125Z

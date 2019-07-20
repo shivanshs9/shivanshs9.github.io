@@ -1,5 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCircle, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faCircle, faChevronUp, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope, faComment } from '@fortawesome/free-regular-svg-icons';
 import {
   faGithub,
@@ -10,6 +10,9 @@ import {
   faMedium,
   faLinkedin,
   faLinkedinIn,
+  faStackOverflow,
+  faGooglePlay,
+  faGitlab,
 } from '@fortawesome/free-brands-svg-icons';
 
 const installFontAwesome = () => {
@@ -18,14 +21,18 @@ const installFontAwesome = () => {
     faComment,
     faChevronUp,
     faEnvelope,
+    faGlobe,
     faGithub,
     faZhihu,
     faFacebookF,
     faFacebook,
     faMediumM,
+    faGitlab,
     faMedium,
     faLinkedin,
     faLinkedinIn,
+    faStackOverflow,
+    faGooglePlay,
   );
 };
 

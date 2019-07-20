@@ -1,0 +1,13 @@
+title: VM Migration for Green Cloud Computing
+subtitle: ''
+description: >-
+  To accomodate the high energy consumption of cloud data centres, a meta-heuristic algorithmic approach is implemented for dynamic Virtual Machines consolidations
+  in live environment. Ant Colony Optimization algorithm is used for this purpose.
+work:
+  - Implemented Ant Colony Optimization algorithm for optimal VM migrations and wrote simulation in Cloudsim Plus.
+  - Benchmarked the algorithm on the open data, provided by NAS Systems division at NASA Ames Research Center in 1993, and compared it with 4 other heuristic approaches.
+projectLink: https://github.com/shivanshs9/acs-vm-migration
+resultLink: https://github.com/shivanshs9/acs-vm-migration/blob/master/report.pdf
+image: ''
+start: 2019-02-01T03:48:03.125Z
+end: 2019-03-28T03:48:03.125Z

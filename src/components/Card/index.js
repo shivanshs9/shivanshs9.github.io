@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import Tag from '../Tag';
 
 import { parseImgur } from '../../api/images';
+import { parseDate } from '../../api';
 
 import './index.scss';
 
@@ -40,8 +41,8 @@ const Card = ({
       <div className="data">
         <div className="content">
           <div className="stats">
-            <span className="date">{date.split('T')[0]}</span>
-            {tags.map(name => (
+            <span className="date">{parseDate(date)}</span>
+            {tags && tags.map(name => (
               <Tag name={name} key={name} />
             ))}
           </div>

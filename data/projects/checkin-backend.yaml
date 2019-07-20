@@ -1,0 +1,13 @@
+title: Checkin API
+subtitle: 'Django-powered REST API for Checkin app'
+description: >-
+  It's a client-independent API to power the functionality of android app. The schema is defined with OpenAPI specifications.
+work:
+  - Worked primarily on developing a RESTful API on the Django backend.
+  - Deployed the backend on Kubernetes cluster and used Ingress as a reverse proxy. I centralized both the production and staging web services into a single entrypoint, using the Ingress.
+  - Incorporated semantic versioning to the API by the creative use of Makefile and git commands.
+projectLink: ''
+resultLink: https://api.check-in.in/
+image: ''
+start: 2018-11-09T03:48:03.125Z
+end: ''

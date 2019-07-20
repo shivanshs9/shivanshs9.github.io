@@ -59,6 +59,18 @@ const handleNextPage = (pageNumber, maxPages) => {
   return parsePageUrl(index);
 };
 
+const getHostFromUrl = url => new URL(url).host;
+
+const convertUrlToIcon = (url) => {
+  const host = getHostFromUrl(url);
+  if (host === 'stackoverflow.com') return ['fab', 'stack-overflow'];
+  if (host === 'github.com') return ['fab', 'github'];
+  if (host === 'play.google.com') return ['fab', 'google-play'];
+  if (host === 'gitlab.com' || host === 'code.videolan.org') return ['fab', 'gitlab'];
+  if (host === 'medium.com') return ['fab', 'medium'];
+  return ['fas', 'globe'];
+};
+
 export {
   getUrl,
   parseMarkdownUrl,
@@ -66,4 +78,6 @@ export {
   handlePreviousPage,
   handleNextPage,
   gotoPage,
+  getHostFromUrl,
+  convertUrlToIcon,
 };

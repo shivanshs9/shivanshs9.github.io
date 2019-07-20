@@ -18,6 +18,7 @@ module.exports = {
         name: 'pages',
       },
     },
+    'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -25,13 +26,6 @@ module.exports = {
         name: 'data',
         // eslint-disable-next-line no-useless-escape
         ignore: ['**/\.js*'],
-      },
-    },
-    {
-      resolve: 'gatsby-transformer-yaml-plus',
-      options: {
-        enableRemark: false,
-        markdownPreface: 'md//',
       },
     },
     {

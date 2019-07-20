@@ -1,0 +1,16 @@
+title: VLC for Android
+subtitle: "Tests are stories we tell the next generation of programmers on a project."
+description: >-
+  The project aims to contribute to the stability of Android port of VLC, by writing test suites for the VLC android codebase.
+  This will ensure that the regressions are caught by developers at an early stage and the released application stays stable.
+work:
+  - Wrote test suites in Kotlin for the VLC Android codebase.
+  - Decoupled the existing codebase, using Abstract Factory Manager design pattern, to run unit tests without the native android SDK or native VLC libraries.
+  - Wrote instrumentation tests for the application’s interface to ensure the correct behaviours of UI views.
+  - Stubbed the integral components of codebase and wrote mocks for external dependencies to various System under Test.
+  - Integrated my unit tests with the Gitlab CI/CD pipeline.
+projectLink: https://code.videolan.org/shivanshs9/vlc-android/
+resultLink: https://summerofcode.withgoogle.com/projects/#6216832984285184
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/VLC_Icon.svg/529px-VLC_Icon.svg.png
+start: 2019-05-06T03:48:03.125Z
+end: 2019-08-19T03:48:03.125Z

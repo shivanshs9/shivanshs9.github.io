@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Tag = ({ name, count }) => (
-  <a href={`/tag/${name}`} className="header-tag">
-    {name}
-    &nbsp;
-    {count}
-  </a>
-);
+const Tag = ({ name, count }) => {
+  return (
+    <a href={`/tag/${name}`} className="header-tag">
+      {name}
+      &nbsp;
+      {count && `(${count})`}
+    </a>
+  );
+}
 
 Tag.propTypes = {
   name: PropTypes.string.isRequired,

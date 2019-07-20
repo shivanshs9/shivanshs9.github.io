@@ -29,9 +29,25 @@ const getPages = amount => new Array(amount).fill().map((_, index) => `/page/${i
 
 const overflow = () => getCurrentPage() === getMaxPages();
 
-const parseDate = date => dayjs(date).format('YYYY/MM/DD');
+const parseDate = date => dayjs(date).format('DD/MM/YYYY');
 
 const parseChineseDate = date => dayjs(date).format('DD/MM/YYYY');
+
+const parseDateToDateTime = date => dayjs(date).format('YYYY, MMM DD | HH:mm');
+
+const parseDateToMonth = date => dayjs(date).format('MMM, YYYY');
+
+const getDuration = (start, end) => {
+  if (!end) return 'Working';
+  const dtStart = dayjs(start);
+  const dtEnd = dayjs(end);
+  const diffHrs = dtEnd.diff(dtStart, 'hour');
+  if (diffHrs <= 24) return `${diffHrs} hour${diffHrs > 1 ? 's' : ''}`;
+  const diffDays = dtEnd.diff(dtStart, 'day');
+  if (diffDays <= 30) return `${diffDays} day${diffDays > 1 ? 's' : ''}`;
+  const diffMonths = dtEnd.diff(dtStart, 'month');
+  return `${diffMonths} month${diffMonths > 1 ? 's' : ''}`;
+}
 
 export {
   isBrowser,
@@ -41,6 +57,9 @@ export {
   overflow,
   parseDate,
   parseChineseDate,
+  parseDateToDateTime,
   getPath,
   getPageNumber,
+  getDuration,
+  parseDateToMonth,
 };
