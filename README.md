@@ -7,8 +7,9 @@ Source code of my personal website, developed using Gatsby and Calpa's starter p
 For technical information, refer to the document by Calpa below.
 
 <hr/>
+
 Calpa's README
------
+----
 
 [繁體中文](README-zh-Hant.md) | [简体中文](README-zh-Hans.md) | [English](README.md)
 
