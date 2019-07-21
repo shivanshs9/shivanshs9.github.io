@@ -22,7 +22,7 @@ const Header = ({
       {title && <h1 className="u-title">{title}</h1>}
       {subTitle && (
         <div className="u-subtitle">
-          <div className="m-left">
+          <div className="m-centre">
             {authorImage && (
               <img
                 // src={parseImgur(authorImage, 'small-square')}
