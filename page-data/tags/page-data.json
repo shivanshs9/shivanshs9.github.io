@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-tags-js","path":"/tags/","webpackCompilationHash":"79a1f70615b7fdf306dd","result":{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"tags":["Python","Django"]}}}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{"componentChunkName":"component---src-pages-tags-js","path":"/tags/","webpackCompilationHash":"f0d27dfa2676df6753d8","result":{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"tags":["Python","Django"]}}}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
