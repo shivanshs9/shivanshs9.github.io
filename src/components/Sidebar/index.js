@@ -20,6 +20,10 @@ const {
   linkedin,
 } = config;
 
+const showResume = () => {
+  window.open('https://drive.google.com/file/d/1XsZ-coaklQNZrXsdGmNkp3B-t52t_nmv/view', '_blank');
+};
+
 const Icon = ({ href, icon }) => (
   <a
     target="_blank"
@@ -59,6 +63,9 @@ const Sidebar = ({ totalCount, latestPosts }) => (
         && <Icon href={`https://www.facebook.com/${facebook}/`} icon={['fab', 'facebook']} />
       }
       <Icon href={`mailto:${email}`} icon={['far', 'envelope']} />
+      <div className="link-resume" onClick={showResume}>
+        Resume
+      </div>
       <Information totalCount={totalCount} posts={latestPosts} />
     </div>
   </header>

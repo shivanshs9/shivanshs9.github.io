@@ -31,6 +31,18 @@
         color: $light-blue;
       }
     }
+
+    .link-resume {
+      box-shadow: 0 2px #00000050;
+      font-weight: 600;
+      padding: 0 5px;
+      transition: all 0.5s ease-out;
+
+      &:hover {
+        box-shadow: 0 2px #000000;
+        cursor: pointer;
+      }
+    }
   }
 
   .custom-icon {
