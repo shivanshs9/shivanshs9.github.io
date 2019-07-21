@@ -1,12 +1,14 @@
-## Gatsby Starter - Calpa's Blog
+Shivansh Saini Blog ![GitHub](https://img.shields.io/github/license/shivanshs9/shivanshs9.github.io.svg)
+[![Build Status](https://travis-ci.org/shivanshs9/shivanshs9.github.io.svg?branch=develop)](https://travis-ci.org/shivanshs9/shivanshs9.github.io)
+----
 
-[![GitHub license](https://img.shields.io/github/license/calpa/gatsby-starter-calpa-blog.svg)](https://github.com/calpa/gatsby-starter-calpa-blog/blob/master/LICENSE)
-[![Accept Pull Requests](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/calpa/gatsby-starter-calpa-blog/pulls)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/calpa/gatsby-starter-calpa-blog.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fcalpa%2Fblog)
-[![Greenkeeper badge](https://badges.greenkeeper.io/calpa/gatsby-starter-calpa-blog.svg)](https://greenkeeper.io/)
-[![Build Status](https://api.travis-ci.org/calpa/gatsby-starter-calpa-blog.svg?branch=master)](https://github.com/calpa/gatsby-starter-calpa-blog/blob/master/.travis.yml)
-[![CodeFactor](https://www.codefactor.io/repository/github/calpa/gatsby-starter-calpa-blog/badge)](https://www.codefactor.io/repository/github/calpa/gatsby-starter-calpa-blog)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/69c4fc63-9bed-44e4-aee4-77ceb456f770/deploy-status)](https://app.netlify.com/sites/calpa/deploys)
+Source code of my personal website, developed using Gatsby and Calpa's starter project.
+
+For technical information, refer to the document by Calpa below.
+
+<hr/>
+Calpa's README
+-----
 
 [繁體中文](README-zh-Hant.md) | [简体中文](README-zh-Hans.md) | [English](README.md)
 
@@ -21,15 +23,15 @@ If you like this project, please don't hesitate to star it. Thank you.
 ### Structure
 
 1. GatsbyJS v2, faster than faster
-1. Google Analytics
-1. Offline support
-1. Web App Manifest
-1. Page pagination
-1. Netlify optimization
-1. Awesome comment component (powered by [Gitalk](https://github.com/gitalk/gitalk))
-1. Search Engine Optimization
-1. Parse Markdown in high speed (powered by [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/))
-1. Support to sitemap
+2. Google Analytics
+3. Offline support
+4. Web App Manifest
+5. Page pagination
+6. Netlify optimization
+7. Awesome comment component (powered by [Gitalk](https://github.com/gitalk/gitalk))
+8. Search Engine Optimization
+9. Parse Markdown in high speed (powered by [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/))
+10. Support to sitemap
 
 ### Design
 
