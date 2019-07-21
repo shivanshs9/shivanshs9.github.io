@@ -7,6 +7,10 @@ cache:
 sudo: false
 addons:
   chrome: stable
+# safelist to build
+branches:
+  only:
+  - develop
 language: node_js
 
 node_js:
