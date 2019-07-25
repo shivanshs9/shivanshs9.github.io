@@ -85,7 +85,7 @@
     "commit": "npx git-cz",
     "revert": "node ./scripts/revertConfig.js",
     "deploy:github": "npm run build && node ./deploy-github",
-    "release": "release-it"
+    "release": "release-it --ci"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
