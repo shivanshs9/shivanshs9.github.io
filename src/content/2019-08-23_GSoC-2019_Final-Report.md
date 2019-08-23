@@ -3,7 +3,7 @@ templateKey: blog-post
 id: GSoC-2019_Final-Report
 title: 'GSoC 2019 @ VideoLAN | Testing VLC Android'
 description: “Tests are stories we tell the next generation of programmers on a project.”
-date: 2019-08-23T20:30:47.156Z
+date: 2019-08-23T16:00:47.156Z
 slug: /summers/gsoc/2019-videolan-report
 headerImage: https://i.imgur.com/vBFlDzY.png
 tags:
