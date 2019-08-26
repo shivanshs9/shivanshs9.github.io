@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://shivanshs9.me/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shivanshs9.me/medium/codefest19-hacking-mvp-ca7dcf329208</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/summers/gsoc/2019-videolan-report</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/medium/drf-problems-21f7bb4d4675</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shivanshs9.me/tag/Hackathon</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shivanshs9.me/tag/WeekendOfCode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shivanshs9.me/tag/CodeFest</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shivanshs9.me/tag/AWS</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shivanshs9.me/tag/TeamWork</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shivanshs9.me/tag/WebSockets</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shivanshs9.me/tag/ML</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shivanshs9.me/tag/Django</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/tag/GSoC</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/tag/VideoLAN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/tag/VLC</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/tag/Android</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/tag/Tests</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/tag/Python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shivanshs9.me/tag/Django</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shivanshs9.me/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
