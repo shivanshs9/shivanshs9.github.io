@@ -1,0 +1,15 @@
+title: AgriConnect
+subtitle: “How did we win CodeFest 19's HaXplore? AgriConnect, of course.”
+description: >-
+  A webapp to empower farmers by providing community-based social platform for farmers, where they can ask/answer questions
+  and share their equipments for cheap rent. It also provides AI-based predictive insights on yield and price prediction.
+work:
+  - I designed the core ERD and built the Django webapp including models.
+  - Implemented realtime chat communication between any 2 farmers using WebSockets.
+  - Wrote AWS Lambda functions to expose the ML model deployed on AWS Sage Maker to internet with the help of AWS API Gateway.
+  - Deployed the ASGI-based site on AWS EC2 using AWS RDS for the database layer.
+projectLink: https://github.com/Eerie16/haxplore-traceback
+resultLink: http://agriconnect.ml/
+image: 'https://i.imgur.com/qw0thA7.png'
+start: 2019-08-24T12:00:03.125Z
+end: 2019-08-25T12:00:03.125Z
