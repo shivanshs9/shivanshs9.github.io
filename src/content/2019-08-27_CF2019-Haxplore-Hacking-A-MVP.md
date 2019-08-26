@@ -1,11 +1,11 @@
- ---
+---
 templateKey: blog-post
 id: CF2019-Haxplore-Hacking-A-MVP
 title: 'Hacking away an MVP in 24 hours'
 description: 'How I spent a weekend building product from scratch in an awesome team and winning it!'
 date: 2019-08-26T20:19:47.156Z
 slug: /medium/codefest19-hacking-mvp-ca7dcf329208
-headerImage: https://cdn-images-1.medium.com/max/2560/1*K9Z-b-LPo60LFSUkl-mrUg.png
+headerImage: https://cdn-images-1.medium.com/max/2560/1*hXNXQJ2pfjnI-A8sEl2xtA.jpeg
 tags:
   - Hackathon
   - WeekendOfCode
@@ -18,6 +18,7 @@ tags:
 
 ---
 
+
 Do you know what's more exciting than building an awesome product from scratch with your own hands? Doing it in 24 hours with an awesome team, mixed with lots of food and drinks! That's how my friends and I spent our weekend at the [CodeFest 2019 HaXplore](https://codefest.tech/haxplore) event - a 24-hour long hackathon event organized at our college. We were the team **Traceback**, a group of 3 people - [Amritansh](https://github.com/Eerie16), [Shravan](https://github.com/BAJUKA) and [me](https://shivanshs9.me/).
 It was a most memorable experience; something which I really wanted to share with the help of my pen (technically, keyboard :D).
 
@@ -25,13 +26,14 @@ It was a most memorable experience; something which I really wanted to share wit
 Jotting down some important points here as tips:
 - **Focus on the judging criteria** and ensure you're finished with all the pre-requisites, before actually starting to code. 
 - **Narrow down the idea** so it can be visualized with just 2 line summary and satisfies the problem statement.
-- Avoid building something heavy, like an android app with such time constraints. **Hackathons requires fast iterations** and last-minute working commits. Make sure your chosen platform can handle that!
+- Avoid building something heavy, like an android app with such time constraints. **Hackathons require fast iterations** and last-minute working commits. Make sure your chosen platform can handle that!
 - **Never boast more than you can chew!** The judging does get intensive sometimes, so make sure you know what you've implemented.
 - **Never lose out on your passion!** To keep it driving, take breaks from code - enjoy the weather, take selfies, network with participants, have fun with the organizing team and *eat* (that's the primary reason I attend hackathon).
 - Be confident in presentation and **do your homework**!
 
 **Code:** https://github.com/Eerie16/haxplore-traceback  
 **Website**: http://agriconnect.ml/
+
 
 ### Ideation phase (24 hours to go)
 As we were told of our problem statement, I had my pen ready to jot down the 4 tracks we were given along with listing and then cutting out some hunches. After all, if these ideas came so easily to me, I can't really not expect any other team to think of it too. We were also given AWS credits and informed beforehand that using AWS services rewards brownie points.  
@@ -71,5 +73,7 @@ After the intense coding round, we rested for an hour before we had to prepare f
 
 ### Verdict
 If you're still with me, would you like to know something even more exciting than building a product from scratch in an awesome hackathon? Well, it's winning the event for sure! And indeed we did win the first position *and* prize money of INR 35, 000. The selfies of the team with the prize were worth all the hard work we did and sleep we sacrificed. It was really an awesome experience!! 🎉
+
+![Time for Party!](https://media.giphy.com/media/3KC2jD2QcBOSc/giphy.gif)
 
 I encourage everyone to never miss out on showcasing your passion as a member of Dev community and to participate in such events to show your swags (I mean your laptop stickers, of course! :D)
