@@ -10,6 +10,7 @@ const parseImgur = (rawImage, size = 'large') => {
   if (!rawImage) {
     return `https://i.imgur.com/${defaultPicture}`;
   }
+  if (rawImage.match('http') && !rawImage.match('imgur.com')) return rawImage;
 
   const mapping = {
     'small-square': 's',
