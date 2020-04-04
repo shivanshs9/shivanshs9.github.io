@@ -104,16 +104,7 @@
     "stylelint-scss": "^3.16.0"
   },
   "lint-staged": {
-    "linters": {
-      "**/*.js": [
-        "eslint --fix",
-        "git add"
-      ],
-      "**/*.css": "stylelint",
-      "**/*.scss": "stylelint --syntax=scss"
-    },
-    "ignore": [
-      "**/dist/*.min.js"
-    ]
+    "*.{js,jsx}": "eslint --fix",
+    "*.{css,scss}": "stylelint"
   }
 }
