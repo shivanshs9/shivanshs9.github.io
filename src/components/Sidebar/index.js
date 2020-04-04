@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faKeybase } from '@fortawesome/free-brands-svg-icons';
 
 import { config } from '../../../data';
 
@@ -51,7 +52,7 @@ const Sidebar = ({ totalCount, latestPosts }) => (
         {wordings[1]}
       </p>
       {keybase
-        && <Icon href={`https://keybase.io/${keybase}`} icon={['fab', 'keybase']} />
+        && <Icon href={`https://keybase.io/${keybase}`} icon={faKeybase} />
       }
       <Icon
         href={`https://github.com/${githubUsername}`}
