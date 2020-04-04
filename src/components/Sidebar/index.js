@@ -22,16 +22,13 @@ const {
   keybase
 } = config;
 
-const showResume = () => {
-  window.open('https://drive.google.com/file/d/1XsZ-coaklQNZrXsdGmNkp3B-t52t_nmv/view', '_blank');
-};
-
-const Icon = ({ href, icon }) => (
+const Icon = ({ href, icon, title }) => (
   <a
     target="_blank"
     href={href}
     rel="external nofollow noopener noreferrer"
     className="custom-icon"
+    title={title}
   >
     <span className="fa-layers fa-fw fa-lg">
       <FontAwesomeIcon icon={icon} />
@@ -51,26 +48,52 @@ const Sidebar = ({ totalCount, latestPosts }) => (
         &nbsp;//&nbsp;
         {wordings[1]}
       </p>
-      {keybase
-        && <Icon href={`https://keybase.io/${keybase}`} icon={faKeybase} />
-      }
+      {keybase && (
+        <Icon
+          href={`https://keybase.io/${keybase}`}
+          icon={faKeybase}
+          title="Keybase"
+        />
+      )}
       <Icon
         href={`https://github.com/${githubUsername}`}
         icon={['fab', 'github']}
+        title="Github"
       />
-      {linkedin
-        && <Icon href={`https://linkedin.com/in/${linkedin}/`} icon={['fab', 'linkedin']} />
-      }
-      {medium
-        && <Icon href={`https://medium.com/@${medium}/`} icon={['fab', 'medium']} />
-      }
-      {facebook
-        && <Icon href={`https://www.facebook.com/${facebook}/`} icon={['fab', 'facebook']} />
-      }
-      <Icon href={`mailto:${email}`} icon={['far', 'envelope']} />
-      <div className="link-resume" onClick={showResume}>
+      {linkedin && (
+        <Icon
+          href={`https://linkedin.com/in/${linkedin}/`}
+          icon={['fab', 'linkedin']}
+          title="Linkedin"
+        />
+      )}
+      {medium && (
+        <Icon
+          href={`https://medium.com/@${medium}/`}
+          icon={['fab', 'medium']}
+          title="Medium"
+        />
+      )}
+      {facebook && (
+        <Icon
+          href={`https://www.facebook.com/${facebook}/`}
+          icon={['fab', 'facebook']}
+          title="Facebook"
+        />
+      )}
+      <Icon
+        href={`mailto:${email}`}
+        icon={['far', 'envelope']}
+        title="Email"
+      />
+      <a
+        target="_blank"
+        rel="external nofollow noopener noreferrer"
+        className="link-resume"
+        href="https://drive.google.com/file/d/1XsZ-coaklQNZrXsdGmNkp3B-t52t_nmv/view"
+      >
         Resume
-      </div>
+      </a>
       <Information totalCount={totalCount} posts={latestPosts} />
     </div>
   </header>
