@@ -18,6 +18,7 @@ const {
   facebook,
   medium,
   linkedin,
+  keybase
 } = config;
 
 const showResume = () => {
@@ -49,6 +50,9 @@ const Sidebar = ({ totalCount, latestPosts }) => (
         &nbsp;//&nbsp;
         {wordings[1]}
       </p>
+      {keybase
+        && <Icon href={`https://keybase.io/${keybase}`} icon={['fab', 'keybase']} />
+      }
       <Icon
         href={`https://github.com/${githubUsername}`}
         icon={['fab', 'github']}
