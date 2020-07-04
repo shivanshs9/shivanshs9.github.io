@@ -1,6 +1,6 @@
-Shivansh Saini Blog ![GitHub](https://img.shields.io/github/license/shivanshs9/shivanshs9.github.io.svg)
-[![Build Status](https://travis-ci.org/shivanshs9/shivanshs9.github.io.svg?branch=develop)](https://travis-ci.org/shivanshs9/shivanshs9.github.io)
-----
+## shivanshs9's Blog ![GitHub](https://img.shields.io/github/license/shivanshs9/shivanshs9.github.io.svg) [![Build Status](https://travis-ci.org/shivanshs9/shivanshs9.github.io.svg?branch=develop)](https://travis-ci.org/shivanshs9/shivanshs9.github.io)
+
+<hr/>
 
 Source code of my personal website, developed using Gatsby and Calpa's starter project.
 
@@ -8,16 +8,9 @@ For technical information, refer to the document by Calpa below.
 
 <hr/>
 
-Calpa's README
-----
+Forked from [Calpa's Blog](https://calpa.me).
 
-[繁體中文](README-zh-Hant.md) | [简体中文](README-zh-Hans.md) | [English](README.md)
-
-![Home Page](https://i.imgur.com/lVUwIZC.png)
-
-Build a blog system like [Calpa's Blog](https://calpa.me) in ease.
-
-If you like this project, please don't hesitate to star it. Thank you.
+## Calpa's README
 
 ## Feature
 
@@ -212,9 +205,3 @@ gitalk: {
 Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for more information.
 
 And don't hesitate to put your star and watch this starter project.
-
-## Contact
-
-If you are interested in this project, please feel free to contact [Calpa Liu](calpaliu@gmail.com).
-
-Thanks For Contribute... :)
