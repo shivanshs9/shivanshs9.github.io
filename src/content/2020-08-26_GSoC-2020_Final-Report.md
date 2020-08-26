@@ -5,7 +5,7 @@ title: "GSoC 2020 @ CERN-HSF | XRootD Operator"
 description: To develop a Kubernetes Operator for XRootD to scalably maintain XRootD clusters.
 date: 2020-08-26T19:02:47.156Z
 slug: /summers/gsoc/2020-cern-hsf-report
-headerImage: https://miro.medium.com/max/3780/0*Tv7l1cHUf5kT1l27
+headerImage: https://source.unsplash.com/Q1p7bh3SHj8/1600x900
 tags:
   - GSoC
   - DevOps
