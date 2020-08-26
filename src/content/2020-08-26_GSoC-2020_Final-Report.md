@@ -34,7 +34,7 @@ My project's aim was to develop a Kubernetes Operator for XRootD, along with its
 
 <details><summary>Developed a k8s operator, demonstrating how to deploy and manage an XRootD service at scale using Kubernetes.</summary>
 
-I created two new CRDs, **XRootDCluster** (of **xrootd.xrootd.org** group) and **XRootDVersion** (of **catalog.xrootd.org** group). **XRootDVersion** provides the version metadata and image reference to use for XRootD software in the cluster. **XRootDCluster** is the API to represent distinct instance of XRootD Cluster configured with provided worker and redirector replicas, storage class to dynamically provision, version reference and other configurations for xrootd.cf.
+I created two new CRDs, **XrootdCluster** (of **xrootd.xrootd.org** group) and **XrootdVersion** (of **catalog.xrootd.org** group). **XrootdVersion** provides the version metadata and image reference to use for XRootD software in the cluster. **XrootdCluster** is the API to represent distinct instance of XRootD Cluster configured with provided worker and redirector replicas, storage class to dynamically provision, version reference and other configurations for xrootd.cf.
 
 Here's how the operator's controller syncs resources to build the xrootd cluster:
 ![XRootD Cluster Architecture on K8S](https://i.imgur.com/wH0uVxZ.png)
@@ -50,7 +50,7 @@ All the CRD fields are well-documented and uses kubebuilder validations to valid
 
 Besides syncing resources, there's an additional monitor running in background goroutines, watching logs of redirector and worker pods. Using regex pattern match on the streaming logs, the monitor would identify if the given pod is connected with xrootd protocol or not.
 
-The XRootDCluster CR instance keeps track of all the ready and unready pods for redirector and worker components, the current phase of the cluster (Creating/Available/Failed/Upgrading/Scaling) and the cluster conditions.
+The XrootdCluster CR instance keeps track of all the ready and unready pods for redirector and worker components, the current phase of the cluster (Creating/Available/Failed/Upgrading/Scaling) and the cluster conditions.
 
 </details>
 <details><summary>Added support for OLM for easy installation and seamless upgrades of the operator.</summary>
