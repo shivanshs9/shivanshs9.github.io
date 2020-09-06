@@ -184,7 +184,7 @@ I honestly learnt a _lot_ and writing down each wold be counterproductive of my 
 
 ### Acknowledgements
 
-My mentor, [Fabrice Jammes](https://github.com/fjammes), had been really helpful and taught me important lessons on kubernetes and operators. Going through his code in [qserv-operator](https://github.com/lsst/qserv-operator) also guided me on how to go about developing this operator. His experience with Kubernetes saved me from common pitfalls and his experience with other operators helped me in deciding on a simple APIs and strong architectural design.  
+My mentor, [Fabrice Jammes](https://github.com/fjammes), cloud architect at https://clrwww.in2p3.fr/ and Kubernetes instructor at https://k8s-school.fr, had been really helpful and taught me important lessons on kubernetes and operators. Going through his code in [qserv-operator](https://github.com/lsst/qserv-operator) also guided me on how to go about developing this operator. His experience with Kubernetes saved me from common pitfalls and his experience with other operators helped me in deciding on a simple APIs and strong architectural design.  
 However, amongst these, I learnt a most important advice to always develop with the goal of "simple and maintainable". After all, quoting his words, "Simple and documented would be perfect".
 
 I doubt the operator would have been possible without [Andrew Hanushevsky](https://github.com/abh3) guiding me about how the XRootD protocol works, its architecture and networking part. He patiently helped me debug various obstacles I faced with xrootd, so calling him a "XRootD Expert" would be quite apt. He believed in the project and setup a meeting with XCache to bring this project to light.
