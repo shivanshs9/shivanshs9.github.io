@@ -20,7 +20,7 @@ tags:
 
 Hey! A lot of exciting things happened this Summer 2020 and here I'm to talk about one of the amazing things I worked on. I spent the last 3 months working as a Student Developer under [CERN-HSF](https://hepsoftwarefoundation.org/activities/gsoc.html) organization for the Google Summer of Code 2020.
 
-And honestly, calling it "work" sounds false. After all, I had a really fun time getting a chance to work on a technology I've grown to love - Kubernetes. My project is to build **XRootD Operator**, a Kubernetes operator to create and maintain highly-available xrootd clusters. If you would like to know what exactly is [XRootD](https://xrootd.slac.stanford.edu/) and its architecture, check out [these slides](https://docs.google.com/presentation/d/1a16qRWJklz_AQvlIHsVTSmsqFy1KYia-treDguRSAyg/edit?usp=sharing).
+And honestly, calling it "work" would be an exaggeration. After all, I had a really fun time getting a chance to work on a technology I've grown to love - Kubernetes. My project is to build **XRootD Operator**, a Kubernetes operator to create and maintain highly-available xrootd clusters. If you would like to know what exactly is [XRootD](https://xrootd.slac.stanford.edu/) and its architecture, check out [these slides](https://docs.google.com/presentation/d/1a16qRWJklz_AQvlIHsVTSmsqFy1KYia-treDguRSAyg/edit?usp=sharing).
 
 ### Final Look
 
@@ -175,7 +175,7 @@ I plan to resolve these issues even after the end of GSoC and help to maintain t
 
 ### What I learned
 
-I honestly learnt a _lot_ and writing down each wold be counterproductive of my time. So here are some of the major things I planned to eventually learn and finally got the chance during this project:
+I honestly learnt a _lot_ and writing down each would be counterproductive of my time. So here are some of the major things I planned to eventually learn and finally got the chance during this project:
 
 - Golang, especially its concurrency model (**goroutines** and **channels**)
 - Kubernetes and Openshift
